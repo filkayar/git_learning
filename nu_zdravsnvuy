@@ -1,5 +1,6 @@
 def func1(a):
-  return a+1
+    return a + 1
+
 
 if __name__ == '__main__':
-  print(func1(4))
+    print(func1(4))
