@@ -1,6 +1,11 @@
-def func1(a):
-    return a + 1
+import main
 
+s = main.Stec()
+for el in [1,2,3,4,5]:
+    s.inc(el)
 
-if __name__ == '__main__':
-    print(func1(4))
+n = []
+for el in [1,2,3,4,5]:
+    n.append(s.dec())
+
+print(n)
