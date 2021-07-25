@@ -9,9 +9,10 @@ class Stec:
         return self.items.pop()
 
 
-st = Stec()
-for i in 'позавчера':
-    st.inc(i)
+if __name__ == '__main__':
+    st = Stec()
+    for i in 'позавчера':
+        st.inc(i)
 
-for i in 'позавчера':
-    print(st.dec(), end='')
+    for i in 'позавчера':
+        print(st.dec(), end='')
